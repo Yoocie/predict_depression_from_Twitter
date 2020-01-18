@@ -18,7 +18,7 @@ https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B2-1.pdf
 - うつ群：うつの患者さんが服用する可能性のある薬の名前（文字列）をタイムラインに含むユーザ
 - 非うつ群：ランダムなユーザ
 
-## タイムラインの取得
+## タイムラインの取得(get_user_name, get_timelines)
 
 Twitter APIを用いて、うつ群、非うつ群のユーザー名（screen_name）を取得しました。
 
