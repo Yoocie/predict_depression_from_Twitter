@@ -1,4 +1,5 @@
 #概要
+
 次の研究の追試を行いました。
 『うつ傾向推定に向けたツイート内容の解析法についての一検討』
 https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B2-1.pdf
@@ -8,7 +9,9 @@ https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B2-1.pdf
 データの前処理にはpython(jupyter-notebook)を、svm（サポートベクターマシン）にはR言語を用いました。
 
 #方法
+
 ##うつ群の定義
+
 次のように、各群を定めました。
 - うつ群：うつの患者さんが服用する可能性のある薬の名前（文字列）をタイムラインに含むユーザ
 - 非うつ群：ランダムなユーザ
