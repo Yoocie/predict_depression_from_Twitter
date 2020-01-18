@@ -18,7 +18,7 @@ https://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B2-1.pdf
 - うつ群：うつの患者さんが服用する可能性のある薬の名前（文字列）をタイムラインに含むユーザ
 - 非うつ群：ランダムなユーザ
 
-## タイムラインの取得(get_user_name, get_timelines)
+## タイムラインの取得 （ファイル：get_user_name, get_timelines）
 
 Twitter APIを用いて、うつ群、非うつ群のユーザー名（screen_name）を取得しました。
 
@@ -36,7 +36,7 @@ Twitter APIを用いて、うつ群、非うつ群のユーザー名（screen_na
 
 これには、文書内の語の重要度を表す指標であるtf-idfを用いました。
 
-## 素性ベクトルの作成
+## 素性ベクトルの作成　（ファイル：ksvm.r）
 
 svmによってうつ群/非うつ群の分類を行うため、タイムラインを素性ベクトル化しました。
 
