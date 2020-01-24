@@ -226,7 +226,7 @@ dj=sorted(dj.items(), reverse=True, key=lambda x: x[1][1])
 #三品詞を格納するリストの名前をverbs_djにしてしまう。
 verbs_dj=[]
 for _i in range(len(dj)):
-    if dj[_i][1][0]=='動詞' or '形容詞' or '副詞':
+    if dj[_i][1][0]=='動詞' or dj[_i][1][0]=='形容詞' or dj[_i][1][0]=='副詞':
         verbs_dj.append(dj[_i])
 
 verbs_dj=verbs_dj[:500]+verbs_dj[-500:]
