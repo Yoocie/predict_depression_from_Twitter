@@ -391,3 +391,5 @@ for _i in range(len(dj)):
 print(' '.join([i[0] for i in adverb_dj[:30]]))
 print()
 print(' '.join(reversed([i[0] for i in adverb_dj[-30:]])))
+
+#以上
